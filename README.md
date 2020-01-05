@@ -5,10 +5,9 @@
 
 # React hooks 学习记录
 
-
 ### Hook 是什么 ？
 
-Hook 是一个特殊的函数，它可以让你“钩入” React 的特性。比如 useState 是允许我们在 React function component 中添加 state 的 Hook。
+Hook 是一个特殊的函数，它可以让你“钩入” React 的特性。比如 useState 是允许我们在 React function component 中添加 state 的 Hook。从 16.8.0 开始就可以使用稳定的 Hooks 了。
 
 ### Hook 使用规则
 
