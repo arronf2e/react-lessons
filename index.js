@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
+import FileList from './FileList';
+import Count from './Count';
 import './style.css';
 
 class App extends Component {
@@ -15,9 +17,9 @@ class App extends Component {
     return (
       <div>
         <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
+        <Count />
+        <br />
+        <FileList />
       </div>
     );
   }
