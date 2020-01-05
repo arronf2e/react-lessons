@@ -4,9 +4,11 @@ export default function Count() {
 
   const [count, setCount] = useState(0)
 
+  const test = useState(0)
+
   useEffect(() => {
-    console.log('count effect')
-  }, [])
+    console.log(count)
+  }, [count])
 
   return (
     <div>

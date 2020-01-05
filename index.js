@@ -3,6 +3,8 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import FileList from './FileList';
 import Count from './Count';
+import ThemeContextApp from './ThemeContext'
+import UseRef from './UseRef'
 import './style.css';
 
 class App extends Component {
@@ -20,6 +22,8 @@ class App extends Component {
         <Count />
         <br />
         <FileList />
+        <ThemeContextApp />
+        <UseRef />
       </div>
     );
   }
